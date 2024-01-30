@@ -12,7 +12,6 @@ jobs:
       - name: list files in the directory
         run: |
           echo ls ${{ github.workspace }}
-          ls -l requirements.txt
       - name: run python script
         run: |
           
