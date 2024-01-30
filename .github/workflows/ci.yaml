@@ -9,5 +9,4 @@ jobs:
       - name: hello
         run: |
           echo "🎉 hello world"
-      - name: good job
       
