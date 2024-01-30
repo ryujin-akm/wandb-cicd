@@ -15,7 +15,7 @@ jobs:
           ls -l requirements.txt
       - name: run python script
         run: |
-          echo $GITHUB_WORKSPACE
+          echo ls ${{ github.workspace }}
           pip install -r requirements.txt
           python ci.py
       
