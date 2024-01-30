@@ -12,6 +12,9 @@ jobs:
       - name: list files in the directory
         run: |
           echo ls ${{ github.workspace }}
+      - name: Find requirements.txt
+        run: |
+          find <span class="math-inline">\{\{ github\.workspace \}\} \-name requirements\.txt
       - name: run python script
         run: |
           
