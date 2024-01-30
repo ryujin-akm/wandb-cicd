@@ -9,6 +9,10 @@ jobs:
       - name: hello
         run: |
           echo "🎉 hello world"
+      - name: list files in the directory
+        run: |
+          ls -la
+          ls -l requirements.txt
       - name: run python script
         run: |
           echo $GITHUB_WORKSPACE
