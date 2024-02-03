@@ -8,6 +8,6 @@ on:
 
 jobs:
   trigger-demo:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "hello"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello"
